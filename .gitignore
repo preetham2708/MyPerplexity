@@ -1,0 +1,22 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables (secrets)
+.env
+
+# Persistent data (regenerated, shouldn't be in git)
+checkpoints.sqlite
+checkpoints.sqlite-shm
+checkpoints.sqlite-wal
+faiss_index/
+docs/
+
+# Node.js / Next.js (frontend)
+client/node_modules/
+client/.next/
+
+# OS files
+.DS_Store
+Thumbs.db
